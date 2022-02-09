@@ -1,0 +1,564 @@
+2022-02-01 23:28:17.154 - INFO - 10604 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - memory usage 439939072
+2022-02-01 23:28:17.156 - INFO - 10604 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - child memory usage 454582272
+2022-02-01 23:28:17.172 - INFO - 10604 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - cpu time 173.296875
+2022-02-01 23:28:17.192 - INFO - 10604 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - child cpu time 379.078125
+2022-02-01 23:28:18.711 - INFO - 10604 - azureml.train.automl._experiment_drivers.driver_utilities.fail_parent_run:285 - Setting Run AutoML_87494883-06d3-4b88-86d3-62403e3ccb01 status to: failed
+2022-02-01 23:28:20.682 - INFO - 10604 - azureml.automl.core.systemusage_telemetry.stop:49 - Stopping usage telemetry collection
+2022-02-01 23:28:20.683 - INFO - 10604 - azureml.train.automl.runtime._experiment_drivers.local_experiment_driver.start:332 - Parent Run AutoML_87494883-06d3-4b88-86d3-62403e3ccb01 Complete.
+2022-02-01 23:28:20.683 - INFO - 10604 - azureml.automl.runtime.experiment_store.reset:1120 - Resetting ExpeirmentStore ID: 1968351912200
+2022-02-02 13:06:32.334 - INFO - 12444 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - memory usage 418836480
+2022-02-02 13:06:32.363 - INFO - 12444 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - child memory usage 467738624
+2022-02-02 13:06:32.372 - INFO - 12444 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - cpu time 753.828125
+2022-02-02 13:06:32.373 - INFO - 12444 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - child cpu time 1780.828125
+2022-02-02 13:06:35.341 - INFO - 12444 - azureml.train.automl._experiment_drivers.driver_utilities.fail_parent_run:285 - Setting Run AutoML_07324c7a-e0c5-4aec-9b71-8eb4b1b09978 status to: failed
+2022-02-02 13:06:37.084 - INFO - 12444 - azureml.automl.core.systemusage_telemetry.stop:49 - Stopping usage telemetry collection
+2022-02-02 13:06:37.084 - INFO - 12444 - azureml.train.automl.runtime._experiment_drivers.local_experiment_driver.start:332 - Parent Run AutoML_07324c7a-e0c5-4aec-9b71-8eb4b1b09978 Complete.
+2022-02-02 13:06:37.085 - INFO - 12444 - azureml.automl.runtime.experiment_store.reset:1120 - Resetting ExpeirmentStore ID: 2278545202312
+2022-02-02 18:46:31.398 - INFO - 12444 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetBestChild
+2022-02-02 18:46:31.804 - INFO - 12444 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-02 18:46:37.927 - INFO - 12444 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - memory usage 442417152
+2022-02-02 18:46:37.984 - INFO - 12444 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - child memory usage 484818944
+2022-02-02 18:46:38.027 - INFO - 12444 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - cpu time 5798.5
+2022-02-02 18:46:38.135 - INFO - 12444 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - child cpu time 4127.640625
+2022-02-02 18:46:40.290 - INFO - 12444 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=8485.62[ms]
+2022-02-02 18:46:43.731 - INFO - 12444 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetBestChild, HowEnded=Success, Duration=12332.26[ms]
+2022-02-02 18:46:43.738 - INFO - 12444 - azureml.train.automl.runtime._automl_model_explain.automl_auto_mode_model_explain._automl_perform_best_run_explain_model:85 - Computing model explanations for best run AutoML_7507951e-5050-4e08-9ae8-0a418957955f_46 on local
+2022-02-02 18:46:43.748 - INFO - 12444 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_driver_factory._get_model_explain_driver:67 - Constructing model explain config for classification
+2022-02-02 18:46:43.751 - INFO - 12444 - azureml.train.automl.runtime._automl_model_explain.automl_auto_mode_model_explain._automl_auto_mode_explain_model:140 - The dependent model explainability packages are:- {"azureml-train-automl-runtime": "1.38.0", "azureml-interpret": "1.38.0", "interpret-community": "0.24.1", "interpret-core": "0.2.7"}
+2022-02-02 18:46:43.870 - INFO - 12444 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_helper._check_model_explain_packages:182 - All dependent explainability packages are importable
+2022-02-02 18:46:43.995 - INFO - 12444 - azureml.train.automl.runtime._automl_model_explain.automl_auto_mode_model_explain._automl_auto_mode_explain_model:153 - [RunId:AutoML_7507951e-5050-4e08-9ae8-0a418957955f_46]Start auto mode model explanations
+2022-02-02 18:46:48.403 - INFO - 12444 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - memory usage 442494976
+2022-02-02 18:46:48.426 - INFO - 12444 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - child memory usage 484904960
+2022-02-02 18:46:48.429 - INFO - 12444 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - cpu time 5804.65625
+2022-02-02 18:46:48.457 - INFO - 12444 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - child cpu time 4127.625
+2022-02-02 18:46:54.961 - INFO - 12444 - azureml.automl.runtime.featurization.data_transformer.__init__:189 - Feature sweeping enabled: False
+2022-02-02 18:46:54.989 - INFO - 12444 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping timeout: 86400
+2022-02-02 18:46:55.350 - INFO - 12444 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_driver._rehydrate_automl_fitted_model:116 - Successfully downloaded and loaded the model for explanations
+2022-02-02 18:46:55.818 - INFO - 12444 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2022-02-02 18:46:55.839 - INFO - 12444 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: featurization/data/full_training_dataset
+2022-02-02 18:46:55.855 - INFO - 12444 - azureml.automl.runtime.shared.cache_store._log_activity:93 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=36.75[ms]
+2022-02-02 18:46:55.871 - INFO - 12444 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2022-02-02 18:46:55.877 - INFO - 12444 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: featurization/data/X
+2022-02-02 18:46:57.022 - INFO - 12444 - azureml.automl.runtime.shared._parqueter.load_sparse_matrix:245 - parquet to spmatrix. Memory: 23328.29 kb,Disk: 9294.78 kb
+2022-02-02 18:46:57.023 - INFO - 12444 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: featurization/data/y
+2022-02-02 18:46:57.088 - INFO - 12444 - azureml.automl.runtime.shared._parqueter.load_pandas_dataframe:153 - parquet to ndarray. Memory: 539.78 kb,Disk: 7.43 kb
+2022-02-02 18:46:57.101 - ERROR - 12444 - azureml.automl.runtime.shared.lazy_file_cache_store.log_traceback:229 - Type: Unclassified
+Class: AttributeError
+Message: 'DataFrame' object has no attribute 'to_numpy'
+Traceback:
+  File "lazy_file_cache_store.py", line 230, in get
+    obj = item.func(item.path)
+  File "_parqueter.py", line 204, in load_single_dim_numpy_array
+    array = Parqueter.load_numpy_array(path)
+  File "_parqueter.py", line 180, in load_numpy_array
+    array = cast(np.ndarray, df.to_numpy())
+  File "generic.py", line 4376, in __getattr__
+
+ExceptionTarget: Unspecified
+2022-02-02 18:46:57.374 - CRITICAL - 12444 - azureml.automl.runtime.shared.cache_store.log_traceback:227 - Type: AutoMLInternal
+Class: CacheException
+Message: CacheException:
+	Message: Failed to retrieve key featurization/data/y from cache. Exception type: AttributeError
+	InnerException: AttributeError: 'DataFrame' object has no attribute 'to_numpy'
+	ErrorResponse 
+{
+    "error": {
+        "code": "SystemError",
+        "message": "Encountered an internal AutoML error. Error Message/Code: CacheException. Additional Info: CacheException:\n\tMessage: Failed to retrieve key featurization/data/y from cache. Exception type: AttributeError\n\tInnerException: None\n\tErrorResponse \n{\n    \"error\": {\n        \"message\": \"Failed to retrieve key featurization/data/y from cache. Exception type: AttributeError\"\n    }\n}",
+        "details_uri": "https://aka.ms/automltroubleshoot",
+        "inner_error": {
+            "code": "ClientError",
+            "inner_error": {
+                "code": "AutoMLInternal"
+            }
+        }
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 58, in _log_activity
+    yield
+  File "lazy_file_cache_store.py", line 254, in get
+    raise CacheException.from_exception(e, msg=msg).with_generic_msg(msg)
+  File "lazy_file_cache_store.py", line 230, in get
+    obj = item.func(item.path)
+  File "_parqueter.py", line 204, in load_single_dim_numpy_array
+    array = Parqueter.load_numpy_array(path)
+  File "_parqueter.py", line 180, in load_numpy_array
+    array = cast(np.ndarray, df.to_numpy())
+  File "generic.py", line 4376, in __getattr__
+
+ExceptionTarget: Unspecified
+2022-02-02 18:46:57.393 - INFO - 12444 - azureml.automl.runtime.shared.cache_store._log_activity:93 - ActivityCompleted: Activity=get, HowEnded=Failure, Duration=1520.4[ms]
+2022-02-02 18:46:57.534 - ERROR - 12444 - azureml.train.automl.runtime._automl_model_explain.automl_auto_mode_model_explain.log_traceback:229 - Type: AutoMLInternal
+Class: CacheException
+Message: CacheException:
+	Message: Failed to retrieve key featurization/data/y from cache. Exception type: AttributeError
+	InnerException: AttributeError: 'DataFrame' object has no attribute 'to_numpy'
+	ErrorResponse 
+{
+    "error": {
+        "code": "SystemError",
+        "message": "Encountered an internal AutoML error. Error Message/Code: CacheException. Additional Info: CacheException:\n\tMessage: Failed to retrieve key featurization/data/y from cache. Exception type: AttributeError\n\tInnerException: None\n\tErrorResponse \n{\n    \"error\": {\n        \"message\": \"Failed to retrieve key featurization/data/y from cache. Exception type: AttributeError\"\n    }\n}",
+        "details_uri": "https://aka.ms/automltroubleshoot",
+        "inner_error": {
+            "code": "ClientError",
+            "inner_error": {
+                "code": "AutoMLInternal"
+            }
+        }
+    }
+}
+Traceback:
+  File "automl_auto_mode_model_explain.py", line 93, in _automl_perform_best_run_explain_model
+    _explain_run(best_run, model_explain_params, experiment_observer)
+  File "automl_auto_mode_model_explain.py", line 264, in _explain_run
+    _automl_auto_mode_explain_model(automl_model_explain_driver, experiment_observer)
+  File "automl_auto_mode_model_explain.py", line 168, in _automl_auto_mode_explain_model
+    automl_model_explain_driver.setup_model_explain_data()
+  File "automl_model_explain_classification_driver.py", line 35, in setup_model_explain_data
+    self.setup_model_explain_train_data(True)
+  File "automl_model_explain_driver.py", line 76, in setup_model_explain_train_data
+    _automl_auto_mode_get_explainer_data()
+  File "automl_model_explain_helper.py", line 40, in _automl_auto_mode_get_explainer_data
+    X, y, _ = expr_store.data.materialized.get_train()
+  File "experiment_store.py", line 292, in get_train
+    ret = self._cache.get(separate_keys)
+  File "lazy_file_cache_store.py", line 254, in get
+    raise CacheException.from_exception(e, msg=msg).with_generic_msg(msg)
+  File "lazy_file_cache_store.py", line 230, in get
+    obj = item.func(item.path)
+  File "_parqueter.py", line 204, in load_single_dim_numpy_array
+    array = Parqueter.load_numpy_array(path)
+  File "_parqueter.py", line 180, in load_numpy_array
+    array = cast(np.ndarray, df.to_numpy())
+  File "generic.py", line 4376, in __getattr__
+
+ExceptionTarget: Unspecified
+2022-02-02 18:46:57.536 - WARNING - 12444 - azureml.train.automl.runtime._automl_model_explain.automl_auto_mode_model_explain._automl_perform_best_run_explain_model:109 - Failed model explanation for best run on local.
+2022-02-02 18:46:57.566 - INFO - 12444 - azureml.automl.core.systemusage_telemetry.stop:49 - Stopping usage telemetry collection
+2022-02-02 18:46:57.568 - INFO - 12444 - azureml.train.automl.runtime._experiment_drivers.local_experiment_driver.start:332 - Parent Run AutoML_7507951e-5050-4e08-9ae8-0a418957955f Complete.
+2022-02-02 18:46:57.571 - INFO - 12444 - azureml.automl.runtime.experiment_store.reset:1120 - Resetting ExpeirmentStore ID: 2278593343816
+2022-02-03 00:35:42.287 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetBestChild
+2022-02-03 00:35:42.339 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 00:35:46.548 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=4207.11[ms]
+2022-02-03 00:35:48.118 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - memory usage 326758400
+2022-02-03 00:35:48.119 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - child memory usage 380387328
+2022-02-03 00:35:48.119 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - cpu time 614.65625
+2022-02-03 00:35:48.119 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - child cpu time 2123.359375
+2022-02-03 00:35:48.370 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetBestChild, HowEnded=Success, Duration=6083.34[ms]
+2022-02-03 00:35:48.371 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_auto_mode_model_explain._automl_perform_best_run_explain_model:85 - Computing model explanations for best run AutoML_9301b394-5cc4-49a7-beee-c3f879f52408_16 on local
+2022-02-03 00:35:48.373 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_driver_factory._get_model_explain_driver:67 - Constructing model explain config for classification
+2022-02-03 00:35:48.373 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_auto_mode_model_explain._automl_auto_mode_explain_model:140 - The dependent model explainability packages are:- {"azureml-train-automl-runtime": "1.38.0", "azureml-interpret": "1.38.0", "interpret-community": "0.24.1", "interpret-core": "0.2.7"}
+2022-02-03 00:35:48.377 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_helper._check_model_explain_packages:182 - All dependent explainability packages are importable
+2022-02-03 00:35:48.388 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_auto_mode_model_explain._automl_auto_mode_explain_model:153 - [RunId:AutoML_9301b394-5cc4-49a7-beee-c3f879f52408_16]Start auto mode model explanations
+2022-02-03 00:35:56.898 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer.__init__:189 - Feature sweeping enabled: False
+2022-02-03 00:35:56.917 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping timeout: 86400
+2022-02-03 00:35:56.954 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_driver._rehydrate_automl_fitted_model:116 - Successfully downloaded and loaded the model for explanations
+2022-02-03 00:35:56.956 - INFO - 23392 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2022-02-03 00:35:56.959 - INFO - 23392 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: featurization/data/full_training_dataset
+2022-02-03 00:35:56.959 - INFO - 23392 - azureml.automl.runtime.shared.cache_store._log_activity:93 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=2.48[ms]
+2022-02-03 00:35:56.960 - INFO - 23392 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2022-02-03 00:35:56.960 - INFO - 23392 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: featurization/data/X
+2022-02-03 00:35:58.018 - INFO - 23392 - azureml.automl.runtime.shared._parqueter.load_sparse_matrix:245 - parquet to spmatrix. Memory: 20972.75 kb,Disk: 8363.47 kb
+2022-02-03 00:35:58.019 - INFO - 23392 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: featurization/data/y
+2022-02-03 00:35:58.126 - INFO - 23392 - azureml.automl.runtime.shared._parqueter.load_pandas_dataframe:153 - parquet to ndarray. Memory: 485.36 kb,Disk: 6.88 kb
+2022-02-03 00:35:58.126 - INFO - 23392 - azureml.automl.runtime.shared._parqueter.load_numpy_array:183 - Deserialized parquet file into a numpy array of shape: (60654, 1)
+2022-02-03 00:35:58.145 - INFO - 23392 - azureml.automl.runtime.shared._parqueter.load_numpy_array:190 - parquet to ndarray. Memory: 485.23 kb,Disk: 6.88 kb
+2022-02-03 00:35:58.155 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - memory usage 455528448
+2022-02-03 00:35:58.155 - INFO - 23392 - azureml.automl.runtime.shared._parqueter.load_single_dim_numpy_array:213 - Deserialized parquet file into a single dimensional array of shape: (60654,)
+2022-02-03 00:35:58.156 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - child memory usage 509140992
+2022-02-03 00:35:58.156 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - cpu time 616.046875
+2022-02-03 00:35:58.156 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - child cpu time 2123.359375
+2022-02-03 00:35:58.159 - INFO - 23392 - azureml.automl.runtime.shared._parqueter.load_single_dim_numpy_array:219 - parquet to ndarray. Memory: 485.23 kb,Disk: 6.88 kb
+2022-02-03 00:35:58.160 - INFO - 23392 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: featurization/data/sample_weight
+2022-02-03 00:35:58.161 - INFO - 23392 - azureml.automl.runtime.shared.cache_store._log_activity:93 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=1201.11[ms]
+2022-02-03 00:35:58.161 - INFO - 23392 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2022-02-03 00:35:58.161 - INFO - 23392 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: featurization/data/full_validation_dataset
+2022-02-03 00:35:58.161 - INFO - 23392 - azureml.automl.runtime.shared.cache_store._log_activity:93 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=0.0[ms]
+2022-02-03 00:35:58.162 - INFO - 23392 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2022-02-03 00:35:58.162 - INFO - 23392 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: featurization/data/X_valid
+2022-02-03 00:35:58.163 - INFO - 23392 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: featurization/data/y_valid
+2022-02-03 00:35:58.164 - INFO - 23392 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: featurization/data/sample_weight_valid
+2022-02-03 00:35:58.165 - INFO - 23392 - azureml.automl.runtime.shared.cache_store._log_activity:93 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=3.01[ms]
+2022-02-03 00:35:58.272 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_helper._automl_pick_evaluation_samples_explanations:163 - Successfully downsampled the evaluation samples using stratified splits
+2022-02-03 00:35:58.272 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_driver.setup_model_explain_train_data:89 - Preparation of training data for model explanations completed.
+2022-02-03 00:35:58.273 - INFO - 23392 - azureml.automl.runtime.shared.cache_store._log_activity:55 - ActivityStarted: get
+2022-02-03 00:35:58.273 - INFO - 23392 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: X_raw
+2022-02-03 00:35:58.457 - INFO - 23392 - azureml.automl.runtime.shared._parqueter.load_pandas_dataframe:153 - parquet to ndarray. Memory: 15042.32 kb,Disk: 6501.23 kb
+2022-02-03 00:35:58.459 - INFO - 23392 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: y_raw
+2022-02-03 00:35:58.495 - INFO - 23392 - azureml.automl.runtime.shared._parqueter.load_pandas_dataframe:153 - parquet to ndarray. Memory: 485.36 kb,Disk: 6.88 kb
+2022-02-03 00:35:58.496 - INFO - 23392 - azureml.automl.runtime.shared._parqueter.load_numpy_array:183 - Deserialized parquet file into a numpy array of shape: (60654, 1)
+2022-02-03 00:35:58.496 - INFO - 23392 - azureml.automl.runtime.shared._parqueter.load_numpy_array:190 - parquet to ndarray. Memory: 485.23 kb,Disk: 6.88 kb
+2022-02-03 00:35:58.497 - INFO - 23392 - azureml.automl.runtime.shared._parqueter.load_single_dim_numpy_array:213 - Deserialized parquet file into a single dimensional array of shape: (60654,)
+2022-02-03 00:35:58.498 - INFO - 23392 - azureml.automl.runtime.shared._parqueter.load_single_dim_numpy_array:219 - parquet to ndarray. Memory: 485.23 kb,Disk: 6.88 kb
+2022-02-03 00:35:58.499 - INFO - 23392 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: X_raw_valid
+2022-02-03 00:35:58.500 - INFO - 23392 - azureml.automl.runtime.shared.lazy_file_cache_store.get:217 - Getting data for key: y_raw_valid
+2022-02-03 00:35:58.501 - INFO - 23392 - azureml.automl.runtime.shared.cache_store._log_activity:93 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=228.39[ms]
+2022-02-03 00:35:58.564 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_helper._automl_pick_evaluation_samples_explanations:163 - Successfully downsampled the evaluation samples using stratified splits
+2022-02-03 00:35:58.564 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_driver.setup_model_explain_train_data:103 - Preparation of raw data for model explanations completed.
+2022-02-03 00:35:58.571 - INFO - 23392 - azureml.train.automl.runtime.automl_explain_utilities._get_unique_classes:873 - Got class labels from the AutoML estimator
+2022-02-03 00:35:58.572 - INFO - 23392 - azureml.train.automl.runtime.automl_explain_utilities._get_unique_classes:886 - The number of unique classes in training data are 2
+2022-02-03 00:35:58.572 - INFO - 23392 - azureml.train.automl.runtime.automl_explain_utilities._automl_pick_surrogate_model_and_set_params:1230 - The number of core being set for explainable model is: -1
+2022-02-03 00:35:58.572 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_driver.log_explanation_data_stats:200 - Dimensionality of engineered initialization samples:- 60654 samples 167 features
+2022-02-03 00:35:58.573 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_driver.log_explanation_data_stats:203 - Dimensionality of engineered evaluation samples:- 5000 samples 167 features
+2022-02-03 00:35:58.573 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_driver.log_explanation_data_stats:208 - Dimensionality of raw evaluation samples:- 5000 samples 31 features
+2022-02-03 00:35:58.574 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_driver.log_explanation_data_stats:215 - Dimensionality of feature map:- 31 raw features 167 engineered features
+2022-02-03 00:35:58.574 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_driver.log_explanation_data_stats:219 - Number of engineered feature names are:- 167
+2022-02-03 00:35:58.574 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_driver.log_explanation_data_stats:223 - Number of raw feature names are:- 31
+2022-02-03 00:36:03.982 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_model_explain_helper._log_blackbox_explainer_replication_measure:239 - The replication score for teacher model LightGBM with surrogate model LightGBM is:- 1.0
+2022-02-03 00:36:08.263 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - memory usage 557629440
+2022-02-03 00:36:08.316 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - child memory usage 611241984
+2022-02-03 00:36:08.667 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - cpu time 632.09375
+2022-02-03 00:36:08.754 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - child cpu time 2123.359375
+2022-02-03 00:36:18.801 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - memory usage 574377984
+2022-02-03 00:36:18.803 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - child memory usage 627990528
+2022-02-03 00:36:18.821 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - cpu time 640.0625
+2022-02-03 00:36:18.838 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - child cpu time 2123.359375
+2022-02-03 00:36:28.886 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - memory usage 575168512
+2022-02-03 00:36:28.906 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - child memory usage 628817920
+2022-02-03 00:36:28.907 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - cpu time 641.078125
+2022-02-03 00:36:28.926 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - child cpu time 2123.359375
+2022-02-03 00:36:38.983 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - memory usage 575156224
+2022-02-03 00:36:38.986 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - child memory usage 628805632
+2022-02-03 00:36:39.003 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - cpu time 641.6875
+2022-02-03 00:36:39.006 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - child cpu time 2123.359375
+2022-02-03 00:36:49.066 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - memory usage 558538752
+2022-02-03 00:36:49.086 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - child memory usage 612163584
+2022-02-03 00:36:49.088 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - cpu time 642.359375
+2022-02-03 00:36:49.094 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - child cpu time 2123.359375
+2022-02-03 00:36:58.225 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_auto_mode_model_explain._automl_auto_mode_explain_model:212 - Computation of engineered feature importance completed.
+2022-02-03 00:36:59.361 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - memory usage 559546368
+2022-02-03 00:36:59.381 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - child memory usage 613171200
+2022-02-03 00:36:59.397 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - cpu time 643.921875
+2022-02-03 00:36:59.413 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - child cpu time 2123.390625
+2022-02-03 00:37:09.502 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - memory usage 553922560
+2022-02-03 00:37:09.505 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_memory_usage:62 - child memory usage 607547392
+2022-02-03 00:37:09.542 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - cpu time 646.578125
+2022-02-03 00:37:09.542 - INFO - 23392 - azureml.automl.core.systemusage_telemetry._log_cpu_usage:71 - child cpu time 2123.359375
+2022-02-03 00:37:13.063 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_auto_mode_model_explain._automl_auto_mode_explain_model:237 - Computation of raw feature importance completed.
+2022-02-03 00:37:13.065 - INFO - 23392 - azureml.train.automl.runtime._automl_model_explain.automl_auto_mode_model_explain._automl_auto_mode_explain_model:239 - [RunId:AutoML_9301b394-5cc4-49a7-beee-c3f879f52408_16]End auto mode model explanation
+2022-02-03 00:37:15.015 - INFO - 23392 - azureml.automl.core.systemusage_telemetry.stop:49 - Stopping usage telemetry collection
+2022-02-03 00:37:15.017 - INFO - 23392 - azureml.train.automl.runtime._experiment_drivers.local_experiment_driver.start:332 - Parent Run AutoML_9301b394-5cc4-49a7-beee-c3f879f52408 Complete.
+2022-02-03 00:37:15.018 - INFO - 23392 - azureml.automl.runtime.experiment_store.reset:1120 - Resetting ExpeirmentStore ID: 2612746248264
+2022-02-03 00:37:22.274 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 00:37:22.321 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 00:37:22.372 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 00:37:28.382 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=6010.39[ms]
+2022-02-03 00:37:30.353 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=8032.71[ms]
+2022-02-03 00:37:30.353 - INFO - 23392 - azureml.train.automl._model_download_utilities._log_activity:55 - ActivityStarted: DownloadModel
+2022-02-03 00:37:42.761 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer.__init__:189 - Feature sweeping enabled: False
+2022-02-03 00:37:42.761 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping timeout: 86400
+2022-02-03 00:37:42.825 - INFO - 23392 - azureml.train.automl._model_download_utilities._log_activity:93 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=12471.61[ms]
+2022-02-03 00:37:42.827 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=20553.35[ms]
+2022-02-03 00:40:05.611 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:545 - Starting to apply transforms. Total ram: 8423395328 bytes
+2022-02-03 00:40:05.631 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 992366592 bytes
+2022-02-03 00:40:05.654 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Applying transform.
+2022-02-03 00:40:05.679 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.679 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 992370688 bytes
+2022-02-03 00:40:05.679 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - StringCastTransformer,CountVectorizer: Applying transform.
+2022-02-03 00:40:05.700 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (6809, 41)
+2022-02-03 00:40:05.701 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 992395264 bytes
+2022-02-03 00:40:05.702 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Applying transform.
+2022-02-03 00:40:05.712 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.712 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 993972224 bytes
+2022-02-03 00:40:05.712 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - StringCastTransformer,CountVectorizer: Applying transform.
+2022-02-03 00:40:05.730 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (6809, 9)
+2022-02-03 00:40:05.730 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 993968128 bytes
+2022-02-03 00:40:05.730 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - StringCastTransformer,CountVectorizer: Applying transform.
+2022-02-03 00:40:05.742 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (6809, 3)
+2022-02-03 00:40:05.742 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 993955840 bytes
+2022-02-03 00:40:05.742 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - StringCastTransformer,CountVectorizer: Applying transform.
+2022-02-03 00:40:05.758 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (6809, 7)
+2022-02-03 00:40:05.758 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 993980416 bytes
+2022-02-03 00:40:05.758 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Applying transform.
+2022-02-03 00:40:05.774 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.774 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 993980416 bytes
+2022-02-03 00:40:05.774 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - StringCastTransformer,CountVectorizer: Applying transform.
+2022-02-03 00:40:05.789 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (6809, 6)
+2022-02-03 00:40:05.789 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 993980416 bytes
+2022-02-03 00:40:05.789 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - StringCastTransformer,CountVectorizer: Applying transform.
+2022-02-03 00:40:05.821 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (6809, 36)
+2022-02-03 00:40:05.821 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 993812480 bytes
+2022-02-03 00:40:05.821 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - StringCastTransformer,CountVectorizer: Applying transform.
+2022-02-03 00:40:05.836 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (6809, 5)
+2022-02-03 00:40:05.836 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 993845248 bytes
+2022-02-03 00:40:05.836 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - StringCastTransformer,CountVectorizer: Applying transform.
+2022-02-03 00:40:05.867 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (6809, 33)
+2022-02-03 00:40:05.867 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 993849344 bytes
+2022-02-03 00:40:05.867 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - StringCastTransformer,CountVectorizer: Applying transform.
+2022-02-03 00:40:05.883 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (6809, 3)
+2022-02-03 00:40:05.883 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 993849344 bytes
+2022-02-03 00:40:05.883 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - StringCastTransformer,CountVectorizer: Applying transform.
+2022-02-03 00:40:05.899 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (6809, 3)
+2022-02-03 00:40:05.899 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 993845248 bytes
+2022-02-03 00:40:05.899 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.899 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.899 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 993878016 bytes
+2022-02-03 00:40:05.899 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 994295808 bytes
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 994295808 bytes
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 994291712 bytes
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 994283520 bytes
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 994279424 bytes
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 994279424 bytes
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 994279424 bytes
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 994279424 bytes
+2022-02-03 00:40:05.914 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 989958144 bytes
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 986542080 bytes
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 986546176 bytes
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 986546176 bytes
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 986546176 bytes
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 986542080 bytes
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 986542080 bytes
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:556 - Transform memory estimate: 0 bytes, Current available memory: 986542080 bytes
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:566 - SimpleImputer: Applying transform.
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:580 - SimpleImputer: Finished applying transform. Shape (6809, 1)
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.featurization.data_transformer._apply_transforms:589 - Finished applying transforms
+2022-02-03 00:40:05.930 - INFO - 23392 - azureml.automl.runtime.shared.memory_utilities._is_low_memory:208 - Total ram: 8423395328 bytes, Current Available memory: 986542080 bytes. Low memory threshold: 0.5
+2022-02-03 07:55:06.383 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetBestChild
+2022-02-03 07:55:06.473 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 07:55:11.018 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=4544.62[ms]
+2022-02-03 07:55:12.986 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetBestChild, HowEnded=Success, Duration=6602.62[ms]
+2022-02-03 08:22:10.075 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 08:22:10.140 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 08:22:15.126 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=4986.4[ms]
+2022-02-03 08:22:20.027 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=9952.32[ms]
+2022-02-03 08:24:08.066 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 08:24:08.158 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 08:24:14.183 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=6024.91[ms]
+2022-02-03 08:24:28.299 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=20233.05[ms]
+2022-02-03 09:11:02.328 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 09:11:02.394 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 09:11:02.444 - CRITICAL - 23392 - azureml.train.automl.run.log_traceback:227 - Type: ArgumentInvalid
+Class: OnnxConvertException
+Message: OnnxConvertException:
+	Message: Requested an ONNX compatible model but the run has ONNX compatibility disabled.
+	InnerException: None
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "Requested an ONNX compatible model but the run has ONNX compatibility disabled.",
+        "target": "onnx_compatible",
+        "inner_error": {
+            "code": "BadArgument",
+            "inner_error": {
+                "code": "ArgumentInvalid"
+            }
+        }
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 58, in _log_activity
+    yield
+  File "run.py", line 624, in _get_best_child_run
+    OnnxNotEnabled, target="onnx_compatible")
+
+ExceptionTarget: onnx_compatible
+2022-02-03 09:11:02.444 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Failure, Duration=49.88[ms]
+2022-02-03 09:11:02.450 - CRITICAL - 23392 - azureml.train.automl.run.log_traceback:227 - Type: ArgumentInvalid
+Class: OnnxConvertException
+Message: OnnxConvertException:
+	Message: Requested an ONNX compatible model but the run has ONNX compatibility disabled.
+	InnerException: None
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "Requested an ONNX compatible model but the run has ONNX compatibility disabled.",
+        "target": "onnx_compatible",
+        "inner_error": {
+            "code": "BadArgument",
+            "inner_error": {
+                "code": "ArgumentInvalid"
+            }
+        }
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 58, in _log_activity
+    yield
+  File "run.py", line 712, in get_output
+    activity_name=automl_shared_constants.TelemetryConstants.GET_OUTPUT
+  File "run.py", line 624, in _get_best_child_run
+    OnnxNotEnabled, target="onnx_compatible")
+
+ExceptionTarget: onnx_compatible
+2022-02-03 09:11:02.450 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Failure, Duration=122.42[ms]
+2022-02-03 10:11:50.949 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 10:11:51.382 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 10:11:59.053 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=7671.05[ms]
+2022-02-03 10:12:16.199 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=25250.68[ms]
+2022-02-03 10:40:00.966 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 10:40:01.026 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 10:40:01.066 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 10:40:06.366 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=5299.93[ms]
+2022-02-03 10:40:08.396 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=7370.06[ms]
+2022-02-03 10:40:08.406 - INFO - 20860 - azureml.train.automl._model_download_utilities._log_activity:55 - ActivityStarted: DownloadModel
+2022-02-03 10:40:26.306 - INFO - 20860 - azureml.automl.runtime.distributed.utilities.horovod_initialized:70 - Horovod not found in current environment. Distribution via Horovod will be disabled.
+2022-02-03 10:40:26.986 - INFO - 20860 - azureml.automl.runtime.featurization.data_transformer.__init__:189 - Feature sweeping enabled: False
+2022-02-03 10:40:26.986 - INFO - 20860 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping timeout: 86400
+2022-02-03 10:40:28.699 - INFO - 20860 - azureml.train.automl._model_download_utilities._log_activity:93 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=20292.97[ms]
+2022-02-03 10:40:28.706 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=27739.76[ms]
+2022-02-03 10:46:31.742 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 10:46:32.051 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 10:46:32.091 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 10:46:37.115 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=5023.76[ms]
+2022-02-03 10:46:39.379 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=7327.44[ms]
+2022-02-03 10:46:39.379 - INFO - 20860 - azureml.train.automl._model_download_utilities._log_activity:55 - ActivityStarted: DownloadModel
+2022-02-03 10:46:53.564 - INFO - 20860 - azureml.automl.runtime.featurization.data_transformer.__init__:189 - Feature sweeping enabled: False
+2022-02-03 10:46:53.567 - INFO - 20860 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping timeout: 86400
+2022-02-03 10:46:53.630 - INFO - 20860 - azureml.train.automl._model_download_utilities._log_activity:93 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=14251.85[ms]
+2022-02-03 10:46:53.631 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=21890.64[ms]
+2022-02-03 10:47:00.044 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 10:47:00.116 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 10:47:05.388 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=5271.14[ms]
+2022-02-03 10:47:21.154 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=21108.14[ms]
+2022-02-03 13:53:53.735 - INFO - 16820 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 13:53:53.817 - INFO - 16820 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 13:53:53.891 - INFO - 16820 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 13:53:58.325 - INFO - 16820 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=4433.88[ms]
+2022-02-03 13:54:00.204 - INFO - 16820 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=6387.47[ms]
+2022-02-03 13:54:00.208 - INFO - 16820 - azureml.train.automl._model_download_utilities._log_activity:55 - ActivityStarted: DownloadModel
+2022-02-03 13:54:17.259 - INFO - 16820 - azureml.automl.runtime.distributed.utilities.horovod_initialized:70 - Horovod not found in current environment. Distribution via Horovod will be disabled.
+2022-02-03 13:54:18.598 - INFO - 16820 - azureml.automl.runtime.featurization.data_transformer.__init__:189 - Feature sweeping enabled: False
+2022-02-03 13:54:18.598 - INFO - 16820 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping timeout: 86400
+2022-02-03 13:54:21.257 - INFO - 16820 - azureml.train.automl._model_download_utilities._log_activity:93 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=21048.74[ms]
+2022-02-03 13:54:21.259 - INFO - 16820 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=27523.16[ms]
+2022-02-03 13:54:26.483 - INFO - 16820 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 13:54:26.754 - INFO - 16820 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 13:54:30.911 - INFO - 16820 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=4157.09[ms]
+2022-02-03 13:54:44.872 - INFO - 16820 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=18389.34[ms]
+2022-02-03 14:24:34.525 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetBestChild
+2022-02-03 14:24:34.967 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 14:24:38.935 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=3968.3[ms]
+2022-02-03 14:24:40.366 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetBestChild, HowEnded=Success, Duration=5841.57[ms]
+2022-02-03 14:33:16.827 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 14:33:16.886 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 14:33:21.596 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=4709.44[ms]
+2022-02-03 14:33:35.007 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=18179.08[ms]
+2022-02-03 14:41:06.751 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 14:41:06.926 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 14:41:11.682 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=4756.0[ms]
+2022-02-03 14:41:25.948 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=19197.03[ms]
+2022-02-03 15:16:51.945 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 15:16:52.054 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 15:16:56.904 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=4849.39[ms]
+2022-02-03 15:17:14.110 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=22164.28[ms]
+2022-02-03 15:58:25.692 - INFO - 12096 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 15:58:25.732 - INFO - 12096 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 15:58:25.763 - INFO - 12096 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 15:58:30.481 - INFO - 12096 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=4717.85[ms]
+2022-02-03 15:58:32.529 - INFO - 12096 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=6797.41[ms]
+2022-02-03 15:58:32.530 - INFO - 12096 - azureml.train.automl._model_download_utilities._log_activity:55 - ActivityStarted: DownloadModel
+2022-02-03 15:58:52.965 - INFO - 12096 - azureml.automl.runtime.distributed.utilities.horovod_initialized:70 - Horovod not found in current environment. Distribution via Horovod will be disabled.
+2022-02-03 15:58:53.620 - INFO - 12096 - azureml.automl.runtime.featurization.data_transformer.__init__:189 - Feature sweeping enabled: False
+2022-02-03 15:58:53.620 - INFO - 12096 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping timeout: 86400
+2022-02-03 15:58:55.245 - INFO - 12096 - azureml.train.automl._model_download_utilities._log_activity:93 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=22714.68[ms]
+2022-02-03 15:58:55.245 - INFO - 12096 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=29552.44[ms]
+2022-02-03 16:03:00.455 - INFO - 22516 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 16:03:00.497 - INFO - 22516 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 16:03:00.535 - INFO - 22516 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 16:03:06.157 - INFO - 22516 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=5622.35[ms]
+2022-02-03 16:03:08.404 - INFO - 22516 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=7907.16[ms]
+2022-02-03 16:03:08.406 - INFO - 22516 - azureml.train.automl._model_download_utilities._log_activity:55 - ActivityStarted: DownloadModel
+2022-02-03 16:03:30.423 - INFO - 22516 - azureml.automl.runtime.distributed.utilities.horovod_initialized:70 - Horovod not found in current environment. Distribution via Horovod will be disabled.
+2022-02-03 16:03:31.277 - INFO - 22516 - azureml.automl.runtime.featurization.data_transformer.__init__:189 - Feature sweeping enabled: False
+2022-02-03 16:03:31.277 - INFO - 22516 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping timeout: 86400
+2022-02-03 16:03:33.111 - INFO - 22516 - azureml.train.automl._model_download_utilities._log_activity:93 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=24705.13[ms]
+2022-02-03 16:03:33.113 - INFO - 22516 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=32658.3[ms]
+2022-02-03 16:17:29.079 - INFO - 8532 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 16:17:29.127 - INFO - 8532 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 16:17:29.158 - INFO - 8532 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 16:17:35.640 - INFO - 8532 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=6482.04[ms]
+2022-02-03 16:17:37.669 - INFO - 8532 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=8541.76[ms]
+2022-02-03 16:17:37.669 - INFO - 8532 - azureml.train.automl._model_download_utilities._log_activity:55 - ActivityStarted: DownloadModel
+2022-02-03 16:17:58.977 - INFO - 8532 - azureml.automl.runtime.distributed.utilities.horovod_initialized:70 - Horovod not found in current environment. Distribution via Horovod will be disabled.
+2022-02-03 16:17:59.667 - INFO - 8532 - azureml.automl.runtime.featurization.data_transformer.__init__:189 - Feature sweeping enabled: False
+2022-02-03 16:17:59.667 - INFO - 8532 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping timeout: 86400
+2022-02-03 16:18:01.975 - INFO - 8532 - azureml.train.automl._model_download_utilities._log_activity:93 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=24306.5[ms]
+2022-02-03 16:18:01.975 - INFO - 8532 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=32896.54[ms]
+2022-02-03 16:24:47.694 - INFO - 15252 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 16:24:47.740 - INFO - 15252 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 16:24:47.772 - INFO - 15252 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 16:24:53.097 - INFO - 15252 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=5325.11[ms]
+2022-02-03 16:24:55.410 - INFO - 15252 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=7670.16[ms]
+2022-02-03 16:24:55.410 - INFO - 15252 - azureml.train.automl._model_download_utilities._log_activity:55 - ActivityStarted: DownloadModel
+2022-02-03 16:25:13.257 - INFO - 15252 - azureml.automl.runtime.distributed.utilities.horovod_initialized:70 - Horovod not found in current environment. Distribution via Horovod will be disabled.
+2022-02-03 16:25:13.757 - INFO - 15252 - azureml.automl.runtime.featurization.data_transformer.__init__:189 - Feature sweeping enabled: False
+2022-02-03 16:25:13.757 - INFO - 15252 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping timeout: 86400
+2022-02-03 16:25:14.969 - INFO - 15252 - azureml.train.automl._model_download_utilities._log_activity:93 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=19558.05[ms]
+2022-02-03 16:25:14.969 - INFO - 15252 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=27275.04[ms]
+2022-02-03 16:25:22.377 - INFO - 15252 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 16:25:22.545 - INFO - 15252 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 16:25:27.698 - INFO - 15252 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=5152.18[ms]
+2022-02-03 16:25:44.904 - INFO - 15252 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=22526.37[ms]
+2022-02-03 16:45:19.046 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 16:45:19.549 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2022-02-03 16:45:19.620 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 16:45:24.768 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=5148.08[ms]
+2022-02-03 16:45:26.811 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=7261.98[ms]
+2022-02-03 16:45:26.813 - INFO - 20860 - azureml.train.automl._model_download_utilities._log_activity:55 - ActivityStarted: DownloadModel
+2022-02-03 16:45:40.846 - INFO - 20860 - azureml.automl.runtime.featurization.data_transformer.__init__:189 - Feature sweeping enabled: False
+2022-02-03 16:45:40.861 - INFO - 20860 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping timeout: 86400
+2022-02-03 16:45:40.924 - INFO - 20860 - azureml.train.automl._model_download_utilities._log_activity:93 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=14111.09[ms]
+2022-02-03 16:45:40.924 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=21879.55[ms]
+2022-02-03 16:45:47.353 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 16:45:47.423 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 16:45:52.209 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=4785.84[ms]
+2022-02-03 16:46:06.965 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=19612.89[ms]
+2022-02-03 19:55:30.238 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 19:55:30.415 - INFO - 20860 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 19:55:34.684 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=4268.71[ms]
+2022-02-03 19:55:46.899 - INFO - 20860 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=16661.16[ms]
+2022-02-03 21:26:19.799 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetBestChild
+2022-02-03 21:26:20.304 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 21:26:25.524 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=5220.05[ms]
+2022-02-03 21:26:27.919 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetBestChild, HowEnded=Success, Duration=8120.14[ms]
+2022-02-03 21:30:26.105 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 21:30:26.225 - INFO - 23392 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 21:30:30.723 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=4498.0[ms]
+2022-02-03 21:30:44.210 - INFO - 23392 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=18104.61[ms]
+2022-02-03 21:52:18.134 - INFO - 15252 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 21:52:18.210 - INFO - 15252 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 21:52:22.273 - INFO - 15252 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=4063.4[ms]
+2022-02-03 21:52:35.599 - INFO - 15252 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=17465.24[ms]
+2022-02-03 21:52:56.320 - INFO - 15252 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 21:52:56.379 - INFO - 15252 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 21:53:01.199 - INFO - 15252 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=4819.35[ms]
+2022-02-03 21:53:14.512 - INFO - 15252 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=18191.82[ms]
+2022-02-03 21:53:43.073 - INFO - 15252 - azureml.train.automl.run._log_activity:55 - ActivityStarted: RegisterModel
+2022-02-03 21:53:43.123 - INFO - 15252 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2022-02-03 21:53:46.876 - INFO - 15252 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=3752.57[ms]
+2022-02-03 21:53:59.879 - INFO - 15252 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=RegisterModel, HowEnded=Success, Duration=16806.53[ms]

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  azureproject:
+    image: azureproject
+    build:
+      context: .
+      dockerfile: ./Dockerfile

@@ -1,0 +1,26 @@
+3b124e2e78ea4ed4a931b840648229d8.azurecr.io/package@sha256:49209c728589606d7dd70b2c462157d17cccf5c2496bb1ef2e9c22f772134576
+
+............................................................................................................................................................................................
+
+az acr credential show --name 3b124e2e78ea4ed4a931b840648229d8.azurecr.io/package@sha256:49209c728589606d7dd70b2c462157d17cccf5c2496bb1ef2e9c22f772134576
+
+..............................................................................................
+
+az group create --name myresourcegroup --location "West Europe"
+az appservice plan create --name myplanname --resource-group myresourcegroup --sku B1 --is-linux
+
+..............................................................................................
+
+az webapp create --resource-group myresourcegroup --plan myplanname --name loanapprovalautoml --deployment-container-image-name 3b124e2e78ea4ed4a931b840648229d8.azurecr.io/package@sha256:49209c728589606d7dd70b2c462157d17cccf5c2496bb1ef2e9c22f772134576
+
+..............................................................................................
+
+az webapp config container set --name loanapprovalautoml --resource-group myresourcegroup --docker-custom-image-name 3b124e2e78ea4ed4a931b840648229d8.azurecr.io/package@sha256:49209c728589606d7dd70b2c462157d17cccf5c2496bb1ef2e9c22f772134576 --docker-registry-server-url https://3b124e2e78ea4ed4a931b840648229d8.azurecr.io --docker-registry-server-user 3b124e2e78ea4ed4a931b840648229d8 --docker-registry-server-password WdIOkRHjk3BWZyi4XIos=CSFcj7Aijfu
+
+..............................................................................................
+
+az webapp log tail --name loanapprovalautoml --resource-group myresourcegroup
+
+..............................................................................................
+
+az webapp show --name loanapprovalautoml --resource-group myresourcegroup
