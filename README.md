@@ -30,7 +30,10 @@ This is clearly a classification ML Problem. I am going to create a model which 
 4)	**Deployement.ipynb** – In this file I created an endpoint of my best model from auto ml run on Azure Kubernetes Services and this is the end point which I am using in my Azure Web App to predict the eligibility of the loan.
 5)	**\Web_App_Flask\DeployMachineLearningModels\model.py** – Checking the functionality of the endpoint on AKS and making sure everything is okay with the model deployment
 6)	**\Web_App_Flask\DeployMachineLearningModels\try.py**- Checking the backend of web app making sure how we got data and how we processed it and display the results.
-7)	**\Web_App_Flask\DeployMachineLearningModels\DeployFlaskAzure** – Files associated with flask app which is hosted on Azure Web App 
+7)	**\Web_App_Flask\DeployMachineLearningModels\DeployFlaskAzure** – Files associated with flask app which is hosted on Azure Web App
+
+# Screenshot of working app -
+![](./d/2022-02-09 (1).png)
 
 # Important links -
 - ***link of GitHub Repository*** - https://github.com/Maaz199/Azure_Project
