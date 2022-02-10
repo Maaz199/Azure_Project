@@ -33,7 +33,7 @@ This is clearly a classification ML Problem. I am going to create a model which 
 7)	**\Web_App_Flask\DeployMachineLearningModels\DeployFlaskAzure** – Files associated with flask app which is hosted on Azure Web App
 
 # Screenshot of working app -
-![](./d/2022-02-09 (1).png)
+![](2022-02-09%20(1).png)
 
 # Important links -
 - ***link of GitHub Repository*** - https://github.com/Maaz199/Azure_Project
