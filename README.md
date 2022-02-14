@@ -36,6 +36,7 @@ This is clearly a classification ML Problem. I am going to create a model which 
 ![](2022-02-09%20(1).png)
 
 # Important links -
+- ***link of YT Explaination*** - https://www.youtube.com/watch?v=mpHKGFnxKY8
 - ***link of GitHub Repository*** - https://github.com/Maaz199/Azure_Project
 - ***link of web app*** - http://xyzbank.azurewebsites.net/
 
@@ -44,3 +45,8 @@ This is clearly a classification ML Problem. I am going to create a model which 
 http://1103bb47-41d4-4619-9eb8-c07e84987322.westus.azurecontainer.io/score
 2) **Azure Kubernetes Service Endpoint (Need API Key to Access) -**
 http://138.91.136.177:80/api/v1/service/aks-service/score
+
+
+# NOTE -
+I have comsumed all of my Azure Credit given to me for this project, So Web App is stopped and it is giving 403 Error. Please Bare with me.
+
