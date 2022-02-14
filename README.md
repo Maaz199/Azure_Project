@@ -50,7 +50,7 @@ http://138.91.136.177:80/api/v1/service/aks-service/score
 # NOTE -
 I have comsumed all of my Azure Credit given to me for this project, So Web App is stopped and it is giving 403 Error. Please Bare with me.
 
-![]("2022-02-14 (1).png")
+![](2022-02-14%20(1).png)
 
 As you can see that in the Screenshot above, most of my credits is gone to Azure Kubernetes Cluster and minority of part is gone to Azure Container. I should have keep the end point to container only but it was open and anyone can access that but with Azure Kubernetes Services you need an API to access that in this eay it is more secure then container endpoint
 
