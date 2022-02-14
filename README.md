@@ -38,19 +38,19 @@ This is clearly a classification ML Problem. I am going to create a model which 
 # Important links -
 - ***link of YT Explaination*** - https://www.youtube.com/watch?v=mpHKGFnxKY8
 - ***link of GitHub Repository*** - https://github.com/Maaz199/Azure_Project
-- ***link of web app*** - http://xyzbank.azurewebsites.net/          (*Now stop Working because I am consumed all of the credits and my subscription is disabled*)
+- ***link of web app*** - http://xyzbank.azurewebsites.net/          
 
 *Actually, I also have two ml end point in this project -*
 1) **Azure Container Endpoint (Can access by anyone) -**
-http://1103bb47-41d4-4619-9eb8-c07e84987322.westus.azurecontainer.io/score      (*Now stop Working because I am consumed all of the credits and my subscription is disabled*)
+http://1103bb47-41d4-4619-9eb8-c07e84987322.westus.azurecontainer.io/score   
 2) **Azure Kubernetes Service Endpoint (Need API Key to Access) -**
-http://138.91.136.177:80/api/v1/service/aks-service/score                 (*Now stop Working because I am consumed all of the credits and my subscription is disabled*)
+http://138.91.136.177:80/api/v1/service/aks-service/score                
 
 
 # NOTE -
 I have comsumed all of my Azure Credit given to me for this project, So Web App is stopped and it is giving 403 Error. Please Bare with me.
 
-![](2022-02-14%(1).png)
+![]("2022-02-14 (1).png")
 
 As you can see that in the Screenshot above, most of my credits is gone to Azure Kubernetes Cluster and minority of part is gone to Azure Container. I should have keep the end point to container only but it was open and anyone can access that but with Azure Kubernetes Services you need an API to access that in this eay it is more secure then container endpoint
 
