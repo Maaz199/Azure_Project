@@ -38,13 +38,13 @@ This is clearly a classification ML Problem. I am going to create a model which 
 # Important links -
 - ***link of YT Explaination*** - https://www.youtube.com/watch?v=mpHKGFnxKY8
 - ***link of GitHub Repository*** - https://github.com/Maaz199/Azure_Project
-- ***link of web app*** - http://xyzbank.azurewebsites.net/
+- ***link of web app*** - http://xyzbank.azurewebsites.net/          (*Now stop Working because I am consumed all of the credits and my subscription is disabled*)
 
 *Actually, I also have two ml end point in this project -*
 1) **Azure Container Endpoint (Can access by anyone) -**
-http://1103bb47-41d4-4619-9eb8-c07e84987322.westus.azurecontainer.io/score
+http://1103bb47-41d4-4619-9eb8-c07e84987322.westus.azurecontainer.io/score      (*Now stop Working because I am consumed all of the credits and my subscription is disabled*)
 2) **Azure Kubernetes Service Endpoint (Need API Key to Access) -**
-http://138.91.136.177:80/api/v1/service/aks-service/score
+http://138.91.136.177:80/api/v1/service/aks-service/score                 (*Now stop Working because I am consumed all of the credits and my subscription is disabled*)
 
 
 # NOTE -
